@@ -1,7 +1,5 @@
 <?php
- $file_name = array("all.php", "auth.php" , "auth.txt" , "base.txt" ,
-            "chat.html" , "config.php" , "count.txt" , "count_new.txt" , 
-            "counter.dat" , "counter.php" , "create.php" , "dat.db");
+include_once './file_name.php';
  // вычисляем количество элементов в массиве
  $total = count($file_name);
  //Определяем сколько элементов должно быть в одном столбце

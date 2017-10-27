@@ -1,8 +1,6 @@
 <?php
 
- $file_name = array("all.php", "auth.php" , "auth.txt" , "base.txt" ,
-            "chat.html" , "config.php" , "count.txt" , "count_new.txt" , 
-            "counter.dat" , "counter.php" , "create.php" , "dat.db");
+include_once './file_name.php';
         $max_length = 0;
         foreach ($file_name as $name) {
             $length = strlen($name);
